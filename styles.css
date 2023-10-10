@@ -35,10 +35,6 @@ body {
     margin-bottom: 10%;
 }
 
-.rating-container {
-    display: none;
-}
-
 .rating-contents, .thank-you-contents {
     padding: 8%;
 }
@@ -113,6 +109,10 @@ p {
 
 /* Thank you Design */
 
+.thank-you-container {
+    display: flex;
+}
+
 .thank-you-contents {
     display: flex;
     flex-direction: column;
@@ -134,4 +134,12 @@ p {
 
 .thank-you-contents p {
     text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: flex;
 }
