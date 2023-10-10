@@ -66,24 +66,45 @@ p {
 
 .number-item {
     background-color: hsla(216, 12%, 54%, 0.1);
-    width: 20px;
-    padding: 15px;
+    color: var(--light-grey);
+    padding: 14px 18px;
     border-radius: 50%;
     margin: auto;
     display: flex;
     justify-content: center;
+    border: none;
+    font-size: 15px;
 }
 
-button {
+.number-item:hover {
+    background-color: var(--medium-grey);
+    color: var(--white);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.number-item:focus {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.submit-btn {
     background-color: var(--orange);
     border: none;
     color: var(--white);
-    padding: 15px 10px;
+    padding: 13px 10px;
     margin: auto;
     width: 100%;
     font-size: 0.9rem;
     border-radius: 50px;
     letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: var(--white);
+    color: var(--orange);
 }
 
 .thank-you-container {
