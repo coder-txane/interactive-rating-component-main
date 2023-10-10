@@ -24,7 +24,7 @@ body {
     max-width: 100%;
 }
 
-.rating-container {
+.rating-container, .thank-you-container {
     background-color: var(--dark-blue);
     width: 375px;
     height: 100%;
@@ -35,7 +35,11 @@ body {
     margin-bottom: 10%;
 }
 
-.rating-contents {
+.rating-container {
+    display: none;
+}
+
+.rating-contents, .thank-you-contents {
     padding: 8%;
 }
 
@@ -107,6 +111,27 @@ p {
     color: var(--orange);
 }
 
-.thank-you-container {
-    display: none;
+/* Thank you Design */
+
+.thank-you-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thank-you-img {
+    margin: auto auto 25px;
+}
+
+.rating-result {
+    background-color: hsla(216, 12%, 54%, 0.1);
+    color: var(--orange);
+    padding: 8px 15px;
+    border-radius: 50px;
+    width: fit-content;
+    margin: auto;
+}
+
+.thank-you-contents p {
+    text-align: center;
 }
