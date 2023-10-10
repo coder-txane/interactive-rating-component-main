@@ -5,7 +5,6 @@ let number = document.querySelectorAll('.number-item');
 const submitButton = document.querySelector('.submit-btn');
 const ratingPage = document.querySelector('.rating-container');
 const thankYouPage = document.querySelector('.thank-you-container');
-const showElement = document.querySelector('.visible');
 let ratingResult = document.querySelector('.rating-result');
 let rating = 0;
 
