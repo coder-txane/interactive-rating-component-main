@@ -9,10 +9,12 @@ let ratingResult = document.querySelector('.rating-result');
 let rating = 0;
 
 // Rating Buttons
-let numberRating = number.forEach((num) => {
+number.forEach((num) => {
     let numberValue = num.innerHTML
     
     num.addEventListener("click", () => {
+        rating = num.innerHTML;
+        /*
         if (numberValue === "1") {
             rating = 1;
         } else if (numberValue === "2") {
@@ -24,7 +26,9 @@ let numberRating = number.forEach((num) => {
         } else if (numberValue === "5") {
             rating = 5;
         }
+        */
     });
+
 });
 
 // Submit button to thank you page
