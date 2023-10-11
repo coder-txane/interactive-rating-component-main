@@ -44,25 +44,17 @@ Users should be able to:
 - Mobile-first workflow
 - JavaScript
 
-<!--
+
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned the importance of using if-else statements, especially within event listeners. Moreso, I learned how to access and modify CSS code within JavaScript.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+if (ratingPage.style.display !== 'none') {
+        ratingPage.style.display = 'none';
+        thankYouPage.style.display = 'flex';
+        ratingResult.innerHTML = `You selected ${rating} out of 5`;
+    }
 ```
 
 If you want more help with writing markdown, I'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
