@@ -12,8 +12,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -62,4 +60,4 @@ If you want more help with writing markdown, I'd recommend checking out [The Mar
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/coder-txane)
+- Frontend Mentor - [@coder-txane](https://www.frontendmentor.io/profile/coder-txane)
